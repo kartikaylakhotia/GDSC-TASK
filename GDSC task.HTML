@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartikay Lakhotia Design</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 2fr 1fr 1fr;
+            gap: 10px;
+            height: 100vh;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        .red {
+            background-color: #E74C3C;
+            grid-row: 1 / 3;
+            grid-column: 1;
+        }
+        .beige-top {
+            background-color: #FAE5D3;
+            grid-row: 1;
+            grid-column: 2;
+        }
+        .purple {
+            background-color: #BB8FCE;
+            grid-row: 1 / 3;
+            grid-column: 3;
+        }
+        .name {
+            grid-row: 2;
+            grid-column: 2;
+            background-color: #000;
+            color: white;
+            font-size: 24px;
+            font-style: italic;
+        }
+        .green {
+            background-color: #ABEBC6;
+            grid-row: 3;
+            grid-column: 1 / 3;
+        }
+        .beige-bottom {
+            background-color: #FAE5D3;
+            grid-row: 3;
+            grid-column: 3;
+        }
+        .icon {
+            font-size: 48px;
+            color: white;
+        }
+        .number {
+            font-size: 36px;
+        }
+        .dedicated {
+            font-size: 28px;
+        }
+        .ambitious {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item red">
+            <div class="icon">🔛🔝</div>
+        </div>
+        <div class="item beige-top">
+            <div class="number">00001</div>
+        </div>
+        <div class="item purple">
+            <div class="icon">😎</div>
+        </div>
+        <div class="item name">Kartikay Lakhotia</div>
+        <div class="item green">
+            <div class="dedicated">Dedicated towards Work</div>
+        </div>
+        <div class="item beige-bottom">
+            <div class="ambitious">Ambitious</div>
+        </div>
+    </div>
+</body>
+</html>
+
